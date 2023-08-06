@@ -1,14 +1,12 @@
 import "./App.css";
 
 import BoxSx from "./components/Box";
-import ButtonAppBar from "./components/ButtonAppBar";
+import ButtonAppBar from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <BoxSx>
-        <ButtonAppBar />
-      </BoxSx>
+      <BoxSx />
     </div>
   );
 }

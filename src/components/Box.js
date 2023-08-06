@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Box, ThemeProvider } from "@mui/system";
+import Header from "./Header";
 
 export default function BoxSx() {
   const bgImage = "/assets/chat-bg.png";
@@ -23,8 +24,11 @@ export default function BoxSx() {
           border: 2,
           borderColor: "primary.dark",
           borderRadius: "0.5rem",
+          overflow: "hidden",
         }}
-      />
+      >
+        <Header />
+      </Box>
     </ThemeProvider>
   );
 }
