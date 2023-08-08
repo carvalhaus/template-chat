@@ -1,13 +1,19 @@
-import "./App.css";
-
-import BoxSx from "./components/Box";
-import ButtonAppBar from "./components/Header";
+import { Box } from "@mui/material";
+import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="App">
-      <BoxSx />
-    </div>
+    <Box
+      sx={{
+        alignItems: "center",
+        display: "flex",
+        justifyContent: "center",
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
+      <Container />
+    </Box>
   );
 }
 
