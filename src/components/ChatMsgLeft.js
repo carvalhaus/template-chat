@@ -1,7 +1,7 @@
 import { Avatar, Box, Typography } from "@mui/material";
 import React from "react";
 
-function ChatMsgLeft() {
+function ChatMsgLeft(props) {
   return (
     <Box
       sx={{
@@ -34,9 +34,9 @@ function ChatMsgLeft() {
             width: "100%",
           }}
         >
-          BOT
+          {props.user}
           <Typography component={"span"} fontSize={"small"}>
-            12:45
+            {props.time}
           </Typography>
         </Typography>
 
@@ -45,7 +45,7 @@ function ChatMsgLeft() {
             marginTop: 0.5,
           }}
         >
-          Hello
+          {props.message}
         </Typography>
       </Box>
     </Box>

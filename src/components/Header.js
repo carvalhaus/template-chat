@@ -16,6 +16,8 @@ function Header() {
         height: "2.5rem",
         justifyContent: "space-between",
         padding: "0.5rem",
+        position: "absolute",
+        top: 0,
         width: "100%",
       }}
     >
