@@ -20,11 +20,11 @@ Follow these steps to get the template chat application up and running:
 
 1. **Clone the repository:**
 
-   git clone https://github.com/your-username/simple-chat-template.git
+   git clone https://github.com/carvalhaus/template-chat.git
    
 2. **Navigate to the project directory:**
 
-   cd simple-chat-template
+   cd template-chat
 
 3. **Install dependencies:**
 
