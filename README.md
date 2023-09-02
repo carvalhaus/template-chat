@@ -20,12 +20,9 @@ Follow these steps to get the template chat application up and running:
 
 1. **Clone the repository:**
 
-´´'bash
    git clone https://github.com/your-username/simple-chat-template.git
-   ´´´
-
+   
 2. **Navigate to the project directory:**
-
 
    cd simple-chat-template
 
